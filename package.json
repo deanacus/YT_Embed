@@ -1,0 +1,23 @@
+{
+  "name": "@deanacus/youtube-embed",
+  "version": "0.0.0",
+  "type": "module",
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.0.7"
+  },
+  "devDependencies": {
+    "@types/react": "18.2.21",
+    "@types/react-dom": "18.2.7",
+    "@types/styled-components": "5.1.27",
+    "@vitejs/plugin-react-swc": "^3.3.2",
+    "typescript": "5.2.2",
+    "vite": "^4.4.9"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  }
+}
