@@ -1,9 +1,16 @@
 import './styles.css';
+import { YoutubeEmbed } from './components';
 
 export default function App() {
   return (
     <div className="App">
-      <h1>It Works!</h1>
+      <YoutubeEmbed
+        width="560"
+        height="315"
+        id="90bkYh8vQzs"
+        title="YouTube video player"
+        poster="/poster.jpg"
+      />
     </div>
   );
 }
